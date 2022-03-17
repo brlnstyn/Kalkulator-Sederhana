@@ -12,8 +12,32 @@
     <title>Kalkulator</title>
 </head>
 
-<body>
-    <h1><strong>Kalkulator Sederhana</strong></h1>
+<body style="background-color: #F0EBD6;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-size: 38px;"><strong>MATEMATIKA</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Kalkulator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="diskon.php">Diskon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pajak.php">Pajak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bungaTunggal.php">Bunga Tunggal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 style="color: #9BBA74;"><strong>Kalkulator Sederhana</strong></h1>
     <?php
     $b1 = [1, 2, 3, '+', 4, 5, 6, '-', 7, 8, 9, '*', 0, '.', '/', '='];
     $bc = ['C'];
